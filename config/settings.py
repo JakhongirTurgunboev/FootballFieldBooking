@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$bk!u4g)&8l&_i6e^rg(cjew#%6ugsk5_h&9fbzax0#&1+gc*p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://footballbooking.onrender.com/', 'http://127.0.0.1:8000', 'http://localhost']
 
 
 # Application definition
